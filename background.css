@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(182, 181, 213);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+}
+.background{
+    background-image: url('https://th.bing.com/th/id/OIP.tT7UG7QNOQKvijhtgqq2lAHaE8?rs=1&pid=ImgDetMain');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+ .grid{
+            display: grid;
+            grid-template-columns:70% 50%;
+        }
