@@ -1,0 +1,6 @@
+div.one p{
+    background-color: blueviolet;
+}
+div.two > p{
+    background-color: brown;
+}

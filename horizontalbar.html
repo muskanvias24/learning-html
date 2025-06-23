@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               height: 100%; 
+               background-color: rgb(160, 226, 7);
+            } 
+        li a{
+            display: inline-block;
+            width: 100px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(123, 196, 118);
+        }
+        li a.active{
+            background-color: rgb(105, 255, 97);
+            color: white;
+        }
+        li a:hover:not(.active){
+            background-color: rgb(29, 92, 11);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#about" class="active">About Us</a></li>
+        <li><a href="#clients">Our Clients</a></li>  
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+    </ul>
+</body>
+</html>
