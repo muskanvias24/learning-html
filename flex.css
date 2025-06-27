@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    background-color: blue;
+
+
+}
+.secondcontainer{
+    background-color: blue;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.thirdcontainer{
+    background-color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.fourthcontainer{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.fifthcontainer{
+    background-color: blue;
+    display: flex;
+    height: 600px;
+    flex-flow: row wrap;
+    align-content: space-between;
+    overflow: scroll;
+}
+.container > div{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.secondcontainer > div{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.thirdcontainer > div{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 200px;
+    
+}
+.fourthcontainer > div{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold; 
+    height: 300px;
+}
+.fifthcontainer > div{
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 700px; 
+}

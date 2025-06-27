@@ -1,0 +1,48 @@
+
+.container{
+    border: 2px solid black;
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstrow{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.firstrow > div{
+      width: 600px;
+      height: 200px;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 200px;
+}
+.secondrow > div{
+    width: 400px;
+    height: 200px;
+}
+.thirdrow{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 200px;
+}
+.thirdrow > div{
+    height: 200px;
+}
+.fourthrow{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 200px;
+}
+.fourthrow > div{
+    height: 200px;
+}
