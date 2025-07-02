@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 23, 45);
+}
+
+.main{
+    width: 100px;
+    background-size: cover;
+    position: sticky;
+    color: white;
+    height: 43px;
+    background-position: center;
+    background-color: rgb(14, 23, 45);
+    
+}
+.navbar{
+   width: 100%;
+   height: 75px;
+   margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: ;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px ;
+    float:left ;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    color: white;
+}
+.grid{
+            display: grid;
+            grid-template-columns:50% 50%;
+            
+ }
